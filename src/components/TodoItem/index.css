@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.card-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.card-paragraph {
+  font-size: 24px;
+  color: #000000;
+  margin-right: 60px;
+}
+.button {
+  color: #ff0b37;
+  background-color: #ffffff;
+  cursor: pointer;
+  border-style: solid;
+  border-color: #ff0b37;
+  border-width: 2px;
+  border-radius: 10px;
+  min-width: 100px;
+  min-height: 40px;
+  margin: 10px;
+  margin-left: 60px;
+}

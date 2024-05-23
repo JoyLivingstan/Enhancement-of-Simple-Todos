@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc2a0;
+  padding: 20px;
+  height: 100vh;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  min-width: 90vw;
+  min-height: 90vh;
+  font-family: 'Roboto';
+}
+.heading {
+  color: #ff8542;
+  font-size: 56px;
+}
+.card-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
